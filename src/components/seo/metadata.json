@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_seo_metadata",
+  "info": {
+    "displayName": "metadata",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metadescription": {
+      "type": "text"
+    },
+    "metaimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "metatitle": {
+      "type": "string"
+    }
+  }
+}

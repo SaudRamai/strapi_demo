@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_pricings",
+  "info": {
+    "displayName": "pricing"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "descriptions": {
+      "type": "text"
+    },
+    "plan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.pricing-card"
+    }
+  }
+}
